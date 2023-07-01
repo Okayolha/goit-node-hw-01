@@ -55,7 +55,7 @@ function invokeAction({ action, id, name, email, phone }) {
             console.log('Contact removed successfully:');
             console.log(contact);
           } else {
-            console.log('Contact not found');
+            console.log('null');
           }
         })
         .catch(error => console.error(error));
